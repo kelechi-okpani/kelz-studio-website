@@ -16,7 +16,7 @@ export default function TermsOfUse() {
       title="Terms of Use"
       updated={termsUpdated}
       sections={terms}
-      contactIntro={<>Questions about these terms? Read our <Link href="/privacy-policy" className="text-glow hover:underline">Privacy Policy</Link>, or contact KelzNova Ltd.</>}
+      contactIntro={<>Questions about these terms? Read our <Link href="/privacy-policy" className="text-glow hover:underline">Privacy Policy</Link>, or contact kelechi okpani.</>}
     />
   );
 }

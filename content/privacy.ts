@@ -5,7 +5,7 @@ export const policyUpdated = "19 November 2026";
 export type Block = string | string[]; // string = paragraph, string[] = bullet list
 export interface PolicySection { id: string; title: string; body: Block[] }
 export const policy: PolicySection[] = [
-  { id: "who", title: "1. Who we are", body: ["KelzStudio is desktop presentation software developed by KelzNova Ltd. (“KelzNova”, “we”, “us”). This policy explains what information is handled when you visit this website, download KelzStudio, contact us, or use the KelzStudio application."] },
+  { id: "who", title: "1. Who we are", body: ["KelzStudio is desktop presentation software developed by kelechi okpani. (“kelechi okpani”, “we”, “us”). This policy explains what information is handled when you visit this website, download KelzStudio, contact us, or use the KelzStudio application."] },
   { id: "summary", title: "2. The short version", body: [[
     "KelzStudio is local-first software. Your songs, scriptures, media, presentations, themes and Schedules are stored on your own computer.",
     "The current version does not ask you to create an account or register.",

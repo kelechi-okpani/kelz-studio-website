@@ -13,7 +13,7 @@ export function LegalDocument({ title, updated, sections, contactIntro }: {
   return (
     <article className="mx-auto max-w-3xl px-5 pb-28 pt-32">
       <h1 className="text-3xl font-semibold tracking-tight text-fg md:text-5xl">{title}</h1>
-      <p className="mt-3 text-sm text-muted">KelzNova Ltd. · Last updated {updated}</p>
+      <p className="mt-3 text-sm text-muted">kelechi okpani. · Last updated {updated}</p>
 
       <nav aria-label="On this page" className="mt-8 rounded-xl border border-line bg-surface p-5">
         <p className="text-sm font-semibold text-fg">On this page</p>
