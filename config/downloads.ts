@@ -3,7 +3,7 @@ const configuredRepository = process.env.GITHUB_REPOSITORY?.trim();
 const [repositoryOwner, repositoryName] = configuredRepository?.split("/") ?? [];
 
 export const github = {
-  owner: process.env.GITHUB_OWNER?.trim() || repositoryOwner || "KelzNova",
+  owner: process.env.GITHUB_OWNER?.trim() || repositoryOwner || "kelechi okpani",
   repo: process.env.GITHUB_REPO?.trim() || repositoryName || configuredRepository || "kelz-studio",
 };
 export const releasesUrl = `https://github.com/${github.owner}/${github.repo}/releases`;

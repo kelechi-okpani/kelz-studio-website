@@ -1,5 +1,5 @@
 export const faqs = [
-  { q: "What is KelzStudio?", a: "Desktop presentation software for churches, businesses, events and organizations, developed by KelzNova Ltd. It brings songs, scriptures, media, presentations and themes into one Schedule and delivers them to one or more screens." },
+  { q: "What is KelzStudio?", a: "Desktop presentation software for churches, businesses, events and organizations, developed by kelechi okpani. It brings songs, scriptures, media, presentations and themes into one Schedule and delivers them to one or more screens." },
   { q: "Which platforms does it support?", a: "Windows (64-bit installer) and macOS, with separate builds for Intel and Apple Silicon Macs. There is no Linux version." },
   { q: "Does it need an internet connection?", a: "No for everyday use. Your libraries and files are stored on your computer. You need the internet to download Bible translations from the built-in catalog and to download LibreOffice the first time you show Office documents as originals." },
   { q: "What is the difference between Preview and Live?", a: "Preview is for you. You can select items and step through slides without changing the audience screen. Content only goes live when you use Go Live, and live navigation is separate from preview navigation." },

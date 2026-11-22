@@ -8,6 +8,7 @@ export const nav = [
   { label: "Downloads", href: "/download" },
   { label: "Releases", href: "/releases" },
   { label: "Support", href: "/support" },
+  { label: "Media", href: "/media" },
 ];
 
 // Real captures supplied by the developer. Swap files in /public/shots to update everywhere.
@@ -29,20 +30,25 @@ export const shots: Record<"hero" | "media" | "songs" | "scriptures" | "presenta
 
 export const site = {
   name: "KelzStudio",
-  company: "KelzNova Ltd.",
+  company: "kelechi okpani.",
   tagline: "One Platform. For Every Presentation.",
 
   description:
-    "KelzStudio by KelzNova is an easy-to-use cross-platform presentation software for churches, worship teams, businesses, schools, event organizers, and organizations. Create and manage church lyrics, Bible verses, multimedia slides, announcements, and professional presentations with ease.",
+    "KelzStudio by kelechi okpani is an easy-to-use cross-platform presentation software for churches, worship teams, businesses, schools, event organizers, and organizations. Create and manage church lyrics, Bible verses, multimedia slides, announcements, and professional presentations with ease.",
 
   keywords: [
     // Brand keywords
+    "free",
+    "free software",
+    "free presentation software",
+
+
     "Kelz",
     "Studio",
     "KelzStudio",
     "Kelz Studio",
-    "KelzNova",
-    "KelzNova Ltd",
+    "kelechi okpani",
+    "kelechi",
 
     // General presentation software
     "present",

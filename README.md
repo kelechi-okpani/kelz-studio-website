@@ -11,7 +11,7 @@ The download page reads GitHub Releases on the server and displays installer lin
 
 Set the public release repository in the Vercel project's server-side environment variables:
 
-- `GITHUB_REPOSITORY=OWNER/REPOSITORY` (defaults to `KelzNova/kelz-studio`), or
+- `GITHUB_REPOSITORY=OWNER/REPOSITORY` (defaults to `kelechi okpani/kelz-studio`), or
 - `GITHUB_OWNER=OWNER` and `GITHUB_REPO=REPOSITORY`.
 
 `GITHUB_TOKEN` is optional for public releases, but a fine-grained read-only token for the public repository avoids GitHub's lower unauthenticated API rate limit. If used, keep it server-side; never expose it through a `NEXT_PUBLIC_` variable. The website supports both repository setting styles and uses the latest stable release.
