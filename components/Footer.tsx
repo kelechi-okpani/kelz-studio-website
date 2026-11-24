@@ -18,7 +18,7 @@ export function Footer({ latestTag }: { latestTag?: string }) {
         <ul className="mt-4 space-y-2.5 text-sm">
           <li><Link className="hover:text-fg" href="/releases">Release archive</Link></li>{latestTag && <li><Link className="hover:text-fg" href={`/releases/${encodeURIComponent(latestTag)}`}>Latest release notes</Link></li>}<li><Link className="hover:text-fg" href="/privacy-policy">Privacy Policy</Link></li><li><Link className="hover:text-fg" href="/terms">Terms of Use</Link></li>{whatsappConfigured && <li><a className="hover:text-fg" href={whatsappHref} target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></li>}{emailConfigured && <li><a className="hover:text-fg" href={emailHref}>Email support</a></li>}</ul></div>
       </div>
-      <div className="border-t border-line py-6 text-center text-xs text-muted">© {new Date().getFullYear()} {site.company} · Developed by {site.company}</div>
+      <div className="border-t border-line py-6 text-center text-xs text-muted">© {new Date().getFullYear()} KelzStudio · Developed by {site.company}</div>
     </footer>
   );
 }
