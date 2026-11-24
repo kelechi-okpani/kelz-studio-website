@@ -53,8 +53,8 @@ const hint = process.env.NODE_ENV !== "production" && reason ? (
   return (
     <Shell>
       <h2 className="text-sm font-semibold tracking-[.18em] text-glow">CURRENT RELEASE</h2>
-      <div className="mt-4 flex flex-wrap items-center gap-4">{dl.version && <VersionBadge version={dl.version} latest />}{dl.publishedAt && <span className="text-sm text-muted">Published {fmtDate(dl.publishedAt)}</span>}</div>
-      <div className="mt-8"><DownloadGrid release={dl} /></div>
+      {/* <div className="mt-4 flex flex-wrap items-center gap-4">{dl.version && <VersionBadge version={dl.version} latest />}{dl.publishedAt && <span className="text-sm text-muted">Published {fmtDate(dl.publishedAt)}</span>}</div> */}
+      {/* <div className="mt-8"><DownloadGrid release={dl} /></div> */}
       <p className="mt-10 max-w-1xl text-muted">Detailed release notes and earlier versions will appear here as soon as they are published.</p>
       {hint}
     </Shell>);

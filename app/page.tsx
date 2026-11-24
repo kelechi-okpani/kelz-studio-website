@@ -63,10 +63,12 @@ export default async function Home() {
       <Reveal><h2 className={h2}>Designed for the Way You Present.</h2></Reveal>
       <div className="mt-12 grid gap-4 md:grid-cols-4 md:grid-rows-2">{audiences.map(([I, t, d, c], i) => (
         <Reveal key={t} delay={i * 0.07} className={c}><div className="flex h-full min-h-[11rem] flex-col justify-between rounded-2xl border border-line bg-surface p-7 transition hover:-translate-y-1 hover:shadow-lg"><I className="text-brand dark:text-glow" size={i === 0 ? 40 : 28} /><div><h3 className={`font-semibold text-fg ${i === 0 ? "text-2xl" : "text-lg"}`}>{t}</h3><p className="mt-2 text-muted">{d}</p></div></div></Reveal>))}</div></div></section>
-    <section className="pb-28"><div className="mx-auto max-w-6xl px-5">
-      {d.ok ? (latest ? <LatestRelease release={latest} /> : <NoStable />) : <Unavailable />}</div></section>
-    <section className="pb-32"><div className="mx-auto max-w-5xl px-5 text-center">
+    {/* <section className="pb-28"><div className="mx-auto max-w-6xl px-5">
+      {d.ok ? (latest ? <LatestRelease release={latest} /> : <NoStable />) : <Unavailable />}</div>
+      </section> */}
+    {/* <section className="pb-32"><div className="mx-auto max-w-5xl px-5 text-center">
       <Reveal><h2 className={h2}>Your Next Presentation Starts Here.</h2><p className="mx-auto mt-5 max-w-xl text-base text-muted">Get started with KelzStudio and bring your presentation workflow together in one powerful desktop application.</p></Reveal>
-      <div className="mt-12">{dl ? <DownloadGrid release={dl} /> : <Unavailable what="Downloads are" />}</div></div></section>
+      <div className="mt-12">{dl ? <DownloadGrid release={dl} /> : <Unavailable what="Downloads are" />}</div></div>
+      </section> */}
   </>);
 }
